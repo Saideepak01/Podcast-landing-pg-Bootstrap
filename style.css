@@ -1,0 +1,90 @@
+.textchange{
+    font-family: 'Chivo', sans-serif;
+}
+.column1{
+    height: 43.1rem;
+}
+.logo{
+    position: relative;
+    top: -18rem;
+}
+.bgimg{
+    position: relative;
+    top: 1rem;
+    left: 20rem;
+}
+.smallbox{
+    width: 40rem;
+    position: relative;
+    top: -30rem;
+    left: 5rem;
+    border-radius: 5px;
+    box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+}
+.toptext{
+    font-size: 2rem;
+}
+.textgreen{
+    color: #54E6AF;
+}
+.black{
+    color: white;
+}
+.description{
+    width: 24.5rem;
+    padding-bottom: 2rem;
+}
+form{
+    padding-bottom: 2rem;
+}
+input[type=text]{
+    background: grey;
+    border-radius: 50px;
+    border: 0;
+    height: 3rem;
+    width: 20rem;
+}
+input[type=text]:focus{
+    background-color: white;
+}
+::-webkit-input-placeholder{
+    color: white;
+    padding-left: 2rem;
+}
+form > button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 50px;
+    border: 0;
+    font-size: 0.7rem;
+    background-color: #52E6AC;
+    position: relative;
+    left: -8.8rem;
+    top: -0.2rem;
+    font-weight: bold;
+}
+form > button:hover{
+    background: linear-gradient(to right top, #52e6ac, #3baf82, #247c5a, #104c35, #002114);
+    color: white;
+    transition: all 1s;
+}
+.indent{
+    padding-right: 1rem;
+}
+.heart{
+    color: red;
+}
+.coder{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+footer{
+    width: 15rem;
+    margin: 0 auto;
+    position: relative;
+    top: -1rem;
+}
